@@ -12,6 +12,8 @@ Jag började med att skapa en switch case för de olika metoder som jag ville im
 Sedan skapade jag enkla variabler för "input" numren som användes, jag använde sedan dessa variabler i funktionen.
 Sist men inte minst lade jag till texten som guidar användaren genom miniräknaren, presenterar svar och förklarar errors.
 På tala om errors gjorde jag en funktion som gör att numren måste hålla sig inom ett specifikt värde, så att du inte kan använda funktion 73 när det bara finns 4 att välja på.
+Efter att jag kände mig klar med det grundläggande lade jag till en funktion för Pythagoras sats samt att förvandla radianer till grader och vice versa.
+Sedan gjorde jag mitt program mer användarvänligt genom att ändra och förtydliga vissa frågor/ha en annan fråga för vissa funktioner. 
 
 
 ```
@@ -26,7 +28,9 @@ Det var också ganska mycket lättare att göra switch cases än tidigare, vilke
 
 Det som inte gått lika bra var det jag skulle använda för att pausa mitt program när någonting hade gått snett.
 Jag testade mig fram med olika och landade tillslut på System.exit(0);
- vilket avslutar mitt program. Jag försökte tidigare använde mig av return vilket startade om mitt program så snabbt att man knappt hade tid att läsa mitt error meddelande.
+ vilket avslutar mitt program (detta byttes senare ut mot en ja och nej fråga som undrar ifall du vill fortsätta eller inte).
+  Jag försökte tidigare använda mig av return vilket startade om mitt program så snabbt att man knappt hade tid att läsa mitt error meddelande.
+  Det andra som var ganska tufft var att anpassa ett meddelande i sout some frågar t.ex "hur många grader" istället för hur stort ditt tal är för lättare användning.
 
 ## Sammanfattning
 
